@@ -1,7 +1,10 @@
 # 🎨 像素瓦片工坊 (Pixel Tile Studio)
 
 > **一款免费、轻量的像素双网格瓦片地图绘制工具**
+> **画 6 张源图，直接测出整张地图。**
+>
 > *A free, lightweight pixel dual-grid tile map painting tool.*
+> *Paint 6 sources. Test a full map. Done.*
 >
 > **版本 (Version)：v1.0.0 公开测试版 (Public Beta)**
 
@@ -9,9 +12,9 @@
 
 ## 📖 快速介绍 (Introduction)
 
-**中文**：像素瓦片工坊是一款专为"像素双网格瓦片系统"设计的绘制与组合工具。支持 6 个独立画布、16 色 / Hex / RGB 调色、4×4 拼图实时预览、光照修改层以及切片测试场景。
+**中文**：像素瓦片工坊是一款专为**双网格瓦片系统**设计的像素地图绘制工具。传统方式画一张地形过渡图要手绘 16 张瓦片，用它只需画 **6 张源图**，剩下的自动拼好、旋转归并、直接进测试场景看效果。**从画源到验证，一个工具走完。**
 
-**English**: Pixel Tile Studio is a painting and composition tool designed specifically for the "Pixel Dual-Grid Tile System". It supports 6 independent canvases, 16-color / Hex / RGB input, real-time 4×4 tile preview, a lighting modification layer, and a test scene.
+**English**: Pixel Tile Studio is a pixel map painting tool built for the **Dual-Grid Tile System**. Traditionally, a terrain transition set requires hand-drawing **16 tiles**. With this tool, you paint just **6 source tiles** — the rest is auto-composed, rotation-merged, and ready to test in the built-in scene. **From source to validation, all in one tool.**
 
 ## 📥 下载与安装 (Download & Installation)
 
@@ -38,6 +41,12 @@
 ## 📖 这是什么
 
 像素瓦片工坊是一款专为**像素双网格瓦片系统**设计的绘制与组合工具。
+
+**它解决什么问题**：传统地形过渡要手绘 16 张（或更多）瓦片，还得到引擎里试才知道效果。用双网格 + 旋转归并，**6 张源图就能覆盖全部组合**，工具里直接切测试场景验证。
+
+**它和其他瓦片工具的不同**：
+- 别的工具帮你"拼"已经画好的瓦片；这个工具帮你**用最少的源图**生成所有需要的瓦片
+- 别的工具要来回切到引擎；这个工具**内置测试场景**，画完立刻看效果
 
 **双网格瓦片系统**是一种常见的像素地图绘制方式：
 - 地图由格子组成，每个格子有两种状态（用"甲"和"乙"表示）。
@@ -236,6 +245,12 @@ A: **暂无**，目前仅 Windows 版。
 ## 📖 What is this
 
 Pixel Tile Studio is a painting and composition tool designed specifically for the **Pixel Dual-Grid Tile System**.
+
+**The problem it solves**: Traditional terrain transitions require hand-drawing 16 (or more) tiles, and you need to test them in an engine to know if they work. With dual-grid + rotation merging, **6 source tiles cover every combination** — and you can validate the result directly in the built-in test scene.
+
+**How it differs from other tile tools**:
+- Other tools help you "assemble" tiles you've already drawn; this tool helps you **generate all required tiles from minimal sources**
+- Other tools force you to switch to an engine; this tool has a **built-in test scene** for immediate validation
 
 **The Dual-Grid Tile System** is a common pixel map design method:
 - The map consists of cells, each having two states ("A" and "B").
